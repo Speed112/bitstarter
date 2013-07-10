@@ -1,2 +1,10 @@
 ["h1",
- ".navigation"]
+ ".navigation",
+".heading",
+".subheading",
+".pitch",
+".thermometer",
+".section1",
+".section2",
+".faq",
+".footer"]

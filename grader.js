@@ -25,6 +25,8 @@ var fs = require('fs');
 var program = require('commander');
 var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
+var sys = require('util');
+var rest = require('./restler');
 var CHECKSFILE_DEFAULT = "checks.json";
 
 var assertFileExists = function(infile) {
